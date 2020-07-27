@@ -1,6 +1,6 @@
 === WP Countdown Block ===
 Contributors: ibachal
-Tags: countdown block, timer block, count down, coming soon, countdown timer, block, gutenberg countdown
+Tags: countdown block, timer block, count down, block, coming soon, countdown timer, gutenberg countdown
 Stable tag: 1.0.0
 Tested up to: 5.5
 Requires at least: 5.0
