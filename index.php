@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Countdown
+ * Plugin Name: WP Countdown Block
  * Description: Create urgency on your site using the Countdown block.
  * Version:     1.0.0
  * Author:      Achal Jain
