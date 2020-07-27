@@ -1,0 +1,9 @@
+{
+	"name": "ideabox/countdown",
+	"title": "Countdown",
+	"description": "Create urgency on your site using the Countdown block.",
+	"keywords": ["timer"],
+	"category": "widgets",
+	"style": "style.css",
+	"script": "index.js"
+}

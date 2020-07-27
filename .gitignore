@@ -1,0 +1,6 @@
+.vscode
+.idea
+/node_modules
+/vendor
+src.css
+.DS_Store

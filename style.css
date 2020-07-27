@@ -1,0 +1,74 @@
+.ib-countdown {
+  text-align: center;
+  font-size: 1px; }
+  .ib-countdown .ib-countdown-number {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .ib-countdown .ib-countdown-unit {
+    position: relative; }
+  .ib-countdown .ib-countdown-unit-number {
+    font-size: 24px;
+    line-height: 1; }
+  .ib-countdown .ib-countdown-unit-label {
+    min-width: 80px;
+    font-size: 13px; }
+  .ib-countdown .ib-countdown-circle-container {
+    max-width: 100px;
+    max-height: 100px; }
+  .ib-countdown.ib-countdown-layout-circle .ib-countdown-unit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .ib-countdown.ib-countdown-separator-colon .ib-countdown-number:after {
+    content: ':';
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 10;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .ib-countdown.ib-countdown-separator-colon .ib-countdown-number:last-child:after {
+    content: none; }
+  .ib-countdown.ib-countdown-separator-line .ib-countdown-number:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 1px;
+    background: #ccc;
+    box-shadow: none; }
+  .ib-countdown.ib-countdown-separator-line .ib-countdown-number:last-child:after {
+    content: none; }
+  .ib-countdown .ib-countdown-svg-wrap {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100%; }
+    .ib-countdown .ib-countdown-svg-wrap svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+      .ib-countdown .ib-countdown-svg-wrap svg circle {
+        stroke-width: 3px; }
+        .ib-countdown .ib-countdown-svg-wrap svg circle.ib-number-bg {
+          stroke: #ccc; }
+        .ib-countdown .ib-countdown-svg-wrap svg circle.ib-number {
+          stroke: #000; }
+  .ib-countdown .ib-countdown-msg {
+    display: none;
+    font-size: 20px; }
+
+.ib-block-countdown[data-expired="true"][data-hide="true"] .ib-countdown-time {
+  display: none; }
