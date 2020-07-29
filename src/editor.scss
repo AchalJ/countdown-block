@@ -1,0 +1,20 @@
+@import './components/color-picker-control/editor.scss';
+@import './components/range-control/editor.scss';
+@import './components/timer-picker-control/editor.scss';
+
+.ib-block-control--datetime {
+	.components-datetime {
+		padding: 0;
+	}
+}
+.ib-block-control--url {
+	input {
+		max-width: 100%;
+	}
+}
+
+button[class*="editor-block-list-item-ideabox-"] .block-editor-block-icon svg {
+    fill: #fff;
+    background: #2196F3;
+    border-radius: 100%;
+}

@@ -1,0 +1,27 @@
+{
+	"name": "wp-countdown-block",
+	"version": "1.0.0",
+	"description": "Create urgency on your site using the Countdown block.",
+	"author": "Achal Jain",
+	"license": "GPL-2.0-or-later",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "npm build:css & yarn build:frontend:js & wp-scripts start --output-path='./' & node-sass --watch ./src/editor.scss -o ./ & node-sass --watch ./src/style.scss -o ./",
+		"build:css": "node-sass ./src/editor.scss -o ./ | postcss editor.css -u autoprefixer -b 'last 2 versions' -r --no-map && node-sass ./src/style.scss -o ./ | postcss style.css -u autoprefixer -b 'last 2 versions' -r --no-map",
+		"build:frontend:js": "wp-scripts build --config ./frontend.config.js",
+		"lint:js": "wp-scripts lint-js",
+		"lint:style": "wp-scripts lint-style"
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-class-properties": "^7.10.1",
+		"@wordpress/icons": "^2.1.0",
+		"@wordpress/scripts": "^10.0.0",
+		"autoprefixer": "^9.8.0",
+		"node-sass": "^4.14.1",
+		"postcss-cli": "^7.1.1"
+	},
+	"dependencies": {
+		"@wordpress/prettier-config": "^0.2.0",
+		"classnames": "^2.2.6"
+	}
+}

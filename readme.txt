@@ -47,6 +47,7 @@ You can simply set a custom action to run once the timer reaches zero.
  - Set a custom page or URL to redirect your visitors
  - Show a message
 
+
 == Frequently Asked Questions ==
 
 = Does it work with any WordPress theme? =
@@ -57,6 +58,9 @@ Yes, it will work with any standard WordPress theme.
 
 Yes, the Evergreen timer feature is designed for this.
 
+= Where can I report bugs or contribute to the project? =
+
+To report bugs or to contribute, headover to the [GitHub repository](https://github.com/AchalJ/countdown-block)
 
 == Screenshots ==
 

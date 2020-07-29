@@ -1,0 +1,10 @@
+.ib-block-control--timepicker {
+	> .components-base-control__field {
+		display: flex;
+		> .components-base-control {
+			max-width: 65px;
+			margin-right: 10px;
+			margin-bottom: 0;
+		}
+	}
+}

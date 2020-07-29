@@ -1,0 +1,23 @@
+.ib-block-control--panel {
+	> .components-base-control__field {
+		position: relative;
+		> .components-dropdown-menu {
+			position: absolute;
+			top: -3px;
+			> .components-dropdown-menu__toggle {
+				max-height: 25px;
+				max-width: 25px;
+				min-width: 25px;
+				min-height: 25px;
+				padding: 0 3px;
+				vertical-align: middle;
+				margin-left: 10px;
+				box-shadow: none !important;
+				text-align: center;
+				background: #e2e4e7;
+				border-radius: 100%;
+				border: 1px solid #e2e4e7;
+			}
+		}
+	}
+}
