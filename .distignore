@@ -1,0 +1,12 @@
+/.wordpress-org
+/.git
+/.github
+/node_modules
+/src
+
+.distignore
+.gitignore
+
+README.md
+package.json
+frontend.config.js
